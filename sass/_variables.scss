@@ -1,102 +1,14 @@
 //colors
-$background-main: #fff;
-$text-color: #222;
 $light-blue: #C7F7FF;
 $med-blue: #89C0C9;
-$dark-blue:  #3a5E63;
-$light-brown:#C9A689;
-$dark-brown:  #7C593C;
-$light-gray:  #d4d4d4;
+$dark-blue: #3a5E63;
+$light-brown: #C9A689;
+$dark-brown: #7C593C;
+$light-gray: #d4d4d4;
+$font-main: #222;
+$background-main: #fff;
 
-$background-color: $light-blue;
-//text
+/* Font-Families */
+
 $font-main:'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
 $font-heading: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-
-$small-size: header{
-        width: 700px;
-        margin: 0 auto;
-        min-height: 8rem;
-    }
-    header h1{
-        width: 100%;
-        color: $dark-brown;
-    }
-    header:before,
-    header:after{
-        width:230px;
-    }
-    header h1 i.fa-lg{
-        display:inline;
-        color: $dark-brown;
-        vertical-align:baseline;
-        float:none;
-        font-size: 4rem;
-        line-height: 6.3968rem;
-    }
-    header h1 i.fa-lg ~ span{
-        float: none;
-        letter-spacing: 0.25rem;
-        font-size: 3.998rem;
-        /**
-        1 lines of 3.998 * 1.6 = 6.3968
-        **/
-        text-align: left;
-    }
-    header nav{
-        position: static;
-        clear:both;
-        width: 100%;
-        padding: 0;
-    }
-    header nav>ul>li{
-        width:20%;
-        float: left;
-    }
-    header nav>ul>li>a{
-        font-size: 1rem;
-        line-height: 2rem;
-        min-height: 6rem;
-        border:none;
-        border-left:1px solid $light-gray; 
-        padding:1.0rem;
-        background-color: #fff;
-    }
-    header nav>ul>li>a:last-child{
-        border-right:1px solid $light-gray;
-    }
-    section.focal, 
-    section.content1,
-    section.content2,
-    footer{
-        width: 700px; 
-        margin: 0 auto;    
-    }
-    .col-4{
-        width:50%;
-        float:left;
-    }
-    section.content2 h4{
-        font-size: 1.414rem;
-    }
-    section.content2 li{
-        font-size: 1.414rem;
-    }
-    footer .fa-circle{
-        color: #89C0C9;
-    }
-    footer .col-2:last-child{
-        unicode-bidi: bidi-override;
-        direction: rtl;
-    }
-    footer h4[lang=ar]{
-       display:block;
-    }
-    footer h4[lang=de],
-    footer h4[lang=en],
-    footer h4[lang=ru]{
-        display:none;
-    }
-};
-
-

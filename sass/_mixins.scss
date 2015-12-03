@@ -1,20 +1,10 @@
-$small: 701px;
-$med: 901px;
-$large:  1401px;  
-
-
-@mixin small {
-  @media (min-width: #{$small}) and (max-width: #{$med - 1px}) {
-    @content;
-  }
-}
-@mixin med {
-  @media (min-width: #{$med}) and (max-width: #{$large - 1px}) {
-    @content;
-  }
-}
-@mixin small {
-  @media (min-width: #{$large}) {
-    @content;
-  }
+@mixin calculation($n,$w,$s){
+    
+    width: ($w - $s*($n - 1)) / $n;
+    
+    margin-left: $s;
+    
+    &:first-child {
+        margin-left: 0;
+    }
 }
